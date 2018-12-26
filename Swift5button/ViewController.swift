@@ -9,12 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+//    変数を宣言する場所
+    var count = 5
+    var moji = "アイウエオ"
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        //viewDidload = 勝手に呼ばれるところ
+        count = 10
+        print(count)
+
     }
 
-
+    @IBAction func tap(_ sender: Any) {
+        
+        
+    }
+    
 }
 

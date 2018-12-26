@@ -12,6 +12,9 @@
 		011C258E21D3081100430E85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011C258C21D3081100430E85 /* Main.storyboard */; };
 		011C259021D3081200430E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011C258F21D3081200430E85 /* Assets.xcassets */; };
 		011C259321D3081200430E85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011C259121D3081200430E85 /* LaunchScreen.storyboard */; };
+		011C259C21D30AD700430E85 /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = 011C259A21D30AD700430E85 /* key.png */; };
+		011C259D21D30AD700430E85 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 011C259B21D30AD700430E85 /* setting.png */; };
+		011C259F21D310A500430E85 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C259E21D310A500430E85 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		011C258F21D3081200430E85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		011C259221D3081200430E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		011C259421D3081200430E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011C259A21D30AD700430E85 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key.png; sourceTree = "<group>"; };
+		011C259B21D30AD700430E85 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		011C259E21D310A500430E85 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,11 @@
 		011C258721D3081100430E85 /* Swift5button */ = {
 			isa = PBXGroup;
 			children = (
+				011C259A21D30AD700430E85 /* key.png */,
+				011C259B21D30AD700430E85 /* setting.png */,
 				011C258821D3081100430E85 /* AppDelegate.swift */,
 				011C258A21D3081100430E85 /* ViewController.swift */,
+				011C259E21D310A500430E85 /* NextViewController.swift */,
 				011C258C21D3081100430E85 /* Main.storyboard */,
 				011C258F21D3081200430E85 /* Assets.xcassets */,
 				011C259121D3081200430E85 /* LaunchScreen.storyboard */,
@@ -125,6 +134,8 @@
 				011C259321D3081200430E85 /* LaunchScreen.storyboard in Resources */,
 				011C259021D3081200430E85 /* Assets.xcassets in Resources */,
 				011C258E21D3081100430E85 /* Main.storyboard in Resources */,
+				011C259D21D30AD700430E85 /* setting.png in Resources */,
+				011C259C21D30AD700430E85 /* key.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				011C258B21D3081100430E85 /* ViewController.swift in Sources */,
+				011C259F21D310A500430E85 /* NextViewController.swift in Sources */,
 				011C258921D3081100430E85 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
